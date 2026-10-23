@@ -1,0 +1,26 @@
+# MATLAB / Simulink generated files
+slprj/
+*_ert_rtw/
+*_sldrt_win64/
+*.slxc
+*.mex*
+*.asv
+*.autosave
+codegen/
+cache/
+# Embedded build output
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.o
+*.a
+# Local datasets and paths
+local/
+PPT_Results/
+*.mat
+# OS / IDE
+Thumbs.db
+.DS_Store
+.vscode/

@@ -1,0 +1,96 @@
+{
+  "copied_files": [
+    {
+      "file": "models/pc/backup222.slx",
+      "source": "verified archive / Simulink / backup222.slx",
+      "sha256": "ac3808d247b3cf5875cc764117d6c045dcab0c2e99288cd02cad76fd638fe1e4",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "models/stm32/stm32_delay_optimization_stage2_working.slx",
+      "source": "STM32 archive / Simulink / stm32_part",
+      "sha256": "1f8242e670d756dba48719b4164740801b3ae7936a5742731f8c8bc01d93eaf8",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "parameters/Electronic_stability_program_model_parameter.m",
+      "source": "verified archive / Simulink",
+      "sha256": "d666617b0241887ceaa5de669474ab0287cab240855b14accdc4d0d8c8635447",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "can/legacy/vehicle_controller.dbc",
+      "source": "verified archive / Simulink; legacy protocol",
+      "sha256": "e1dc4bcfec402a79251ae209574402b015119726983d44d21e69880317285164",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "hardware/LED.ioc",
+      "source": "original LED project / LED.ioc",
+      "sha256": "b6a63b3c2470a7e77342c6f58256951316523d9a2959a257dc48115b134b3c47",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "scripts/fix_stm32_can_fifo_release_hook.m",
+      "source": "original step1 project",
+      "sha256": "b0890223ec17980050c1845346e2e6803e00ae342342f2e4298a2d9c54089a69",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "scripts/plot_ppt_results.m",
+      "source": "original step1 project",
+      "sha256": "83e672463c922d99cbab68b934101ad16eaa9f8d786f09efd9f3dd4b461c0e30",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "scripts/plot_ppt_results11.m",
+      "source": "original step1 project",
+      "sha256": "13ba60b1335d832978d281560b6dd3c923f0d1af932c5a1fd32ee39b43c0f036",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "results/historical/mz_pc_stm32.png",
+      "source": "original step1 / PPT_Results",
+      "sha256": "3089ecc5604deb552443ca744ef8071b27245101e7cadaba511cfafa995644f4",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "results/historical/r_beta_response.png",
+      "source": "original step1 / PPT_Results",
+      "sha256": "8970583d3c7bbd8232ffaaf41dd2f51570cf18c115fe8b819432f7c1a6de586f",
+      "mode": "unchanged copy"
+    },
+    {
+      "file": "results/historical/LastRun_log.txt",
+      "source": "verified archive / Validation",
+      "sha256": "cddd4e227d6a070fe0dca8936ad57347117e8524597d37bb1951cba7c41ff7d3",
+      "mode": "unchanged copy"
+    }
+  ],
+  "extracted_functions": [
+    {
+      "file": "algorithms/pc/match_mz.m",
+      "model": "models/pc/backup222.slx",
+      "xml": "simulink/stateflow/chart_19.xml",
+      "sha256": "3cd60d2658cdb2f1b818296335684b4cd7c084e93edccce40f93e262efbc0977"
+    },
+    {
+      "file": "algorithms/pc/direct_lyapunov_controller.m",
+      "model": "models/pc/backup222.slx",
+      "xml": "simulink/stateflow/chart_31.xml",
+      "sha256": "5999e388bba78bf96fd5d292547eda8c396f83d4b029cf025bab101ce693c640"
+    },
+    {
+      "file": "algorithms/pc/Analytical_Lyapunov_Observer.m",
+      "model": "models/pc/backup222.slx",
+      "xml": "simulink/stateflow/chart_40.xml",
+      "sha256": "2a13661738240960487d3e32dfb214376149b17f87c3f09f0f73809a1bd607d3"
+    },
+    {
+      "file": "algorithms/stm32/direct_lyapunov_controller.m",
+      "model": "models/stm32/stm32_delay_optimization_stage2_working.slx",
+      "xml": "simulink/stateflow/chart_19.xml",
+      "sha256": "5999e388bba78bf96fd5d292547eda8c396f83d4b029cf025bab101ce693c640"
+    }
+  ]
+}
